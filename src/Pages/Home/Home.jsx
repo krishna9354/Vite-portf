@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 import ContactPage from '../ContactPage/ContactPage';
 import Header from '../../Components/Header/Header';
 import ProjectCard from '../../Components/ProjectCard/ProjectCard';
@@ -11,10 +11,9 @@ export default function Home() {
   return (
     <div>
 
-        <Navbar />
+        <Navbar/>
         <Header/>
         <About/>
-      
         <Services/>
         <ProjectCard/>
         <ContactPage/>

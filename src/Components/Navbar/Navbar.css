@@ -94,6 +94,7 @@ body {
 .highlight {
   background: linear-gradient(to right, #a855f7, #f59e0b);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }

@@ -88,6 +88,6 @@
 .highlight-text {
   color: #a100ff;
   background: linear-gradient(90deg, #a100ff, orange);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
