@@ -1,19 +1,19 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import './Navbar.css';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        Kris<span className="dot">.</span>
+        My Portfolio<span className="dot"></span>
       </div>
       <ul className="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="#" className="btn-gradient">Connect With Me</a>
     </nav>
   );
 };

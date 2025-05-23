@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProjectCard.css'; // Import your CSS file for styling
+import './ProjectCard.css'; // Your styling file
 
 const projects = [
   {
@@ -27,22 +27,28 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="section">
-    <div className="projects-container">
-      <h2>My Projects</h2>
-      <div className="projects-grid">
-        {projects.map(({ id, title, description, techStack, link }) => (
-          <div key={id} className="project-card">
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <p><strong>Tech Stack:</strong> {techStack.join(', ')}</p>
-            <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
-              View Project
-            </a>
-          </div>
-        ))}
+    <section id="projects" className="section">
+      <div className="projects-container">
+        <h2>My Projects</h2>
+        <div className="projects-grid">
+          {projects.map(({ id, title, description, techStack, link }) => (
+            <div key={id} className="project-card">
+              <h3>{title}</h3>
+              <p>{description}</p>
+              <p><strong>Tech Stack:</strong> {techStack.join(', ')}</p>
+              <a 
+                href={link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="project-link"
+                aria-label={`View project details and source code for ${title}`}
+              >
+                View Project
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-    </div>
+    </section>
   );
 }

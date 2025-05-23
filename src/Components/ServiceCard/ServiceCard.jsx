@@ -26,17 +26,17 @@ const services = [
 
 export default function Services() {
   return (
-    <div className="services-section">
-      <h2 className="services-title">My Services</h2>
+    <section id="services" className="services-section section">
+      <h2 className="services-title">Services</h2>
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card" key={index}>
-            <div className="service-icon">{service.icon}</div>
+          <article className="service-card" key={index} tabIndex="0" aria-label={service.title}>
+            <div className="service-icon" aria-hidden="true">{service.icon}</div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
-          </div>
+          </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

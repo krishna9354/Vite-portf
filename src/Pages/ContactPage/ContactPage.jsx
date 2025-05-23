@@ -4,7 +4,7 @@ import './ContactPage.css';
 
 export default function ContactPage() {
   return (
-    <div className="contact-page container py-5">
+    <section id="contact" className="contact-section container py-5">
       <h2 className="text-center mb-4">Get in Touch</h2>
 
       <div className="row">
@@ -13,14 +13,13 @@ export default function ContactPage() {
           <ContactForm />
         </div>
 
-        
-
         {/* WhatsApp Contact Section */}
         <div className="col-md-6 d-flex flex-column align-items-center justify-content-center text-center">
-          <h1>lets talk</h1>
+          <h1>Let's Talk</h1>
 
-          <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
-          <p>Fill out the form and I'll get back to you as soon as possible.</p>
+          <p>
+            I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.
+          </p>
 
           <h4 className="mb-3">Prefer WhatsApp?</h4>
           <a
@@ -33,6 +32,6 @@ export default function ContactPage() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

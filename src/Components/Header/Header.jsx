@@ -8,14 +8,13 @@ const Header = () => {
       <img src= {profileImage} alt="Krishna Garg" className="profile-img" />
       <h1>
         I'm <span className="highlight">Krishna Garg</span>,<br /> 
-        full stack developer based in India.
+        Full stack developer
       </h1>
       <p>
         I am a full stack developer with experience in React, Node.js, Express, and MongoDB.
         I’ve built major projects like a food delivery app and worked as an intern at QBE Consulting.
       </p>
       <div className="hero-buttons">
-        <a href="#" className="btn-gradient">Connect with me</a>
         <a href="#" className="btn-outline">My resume</a>
       </div>
     </section>

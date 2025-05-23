@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Home.css';
 import Navbar from '../../Components/Navbar/Navbar';
 import ContactPage from '../ContactPage/ContactPage';
@@ -9,15 +9,15 @@ import About from '../About/About';
 
 export default function Home() {
   return (
-    <div>
-
-        <Navbar/>
-        <Header/>
-        <About/>
-        <Services/>
-        <ProjectCard/>
-        <ContactPage/>
-    </div>
-
-  )
+    <>
+      <Navbar />
+      <main className="main-content">
+        <Header />
+        <About />
+        <Services />
+        <ProjectCard />
+        <ContactPage />
+      </main>
+    </>
+  );
 }

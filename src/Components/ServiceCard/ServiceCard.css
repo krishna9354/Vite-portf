@@ -2,13 +2,13 @@
   padding: 3rem 1rem;
   background: #0F0F0F;
   text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .services-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #faf9f9;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -19,33 +19,16 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .service-card {
-  background-color: #ffffff;
+  background-color: #1A1A1A;
   border-radius: 12px;
   padding: 2rem 1.5rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #2A2A2A;
 }
 
 .service-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
-
-.service-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #007bff;
-}
-
-.service-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  color: #222;
-}
-
-.service-card p {
-  font-size: 1rem;
-  color: #555;
+  box-shadow: 0 12px 24px #f70072; /* soft orange glow */
 }
