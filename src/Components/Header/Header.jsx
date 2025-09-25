@@ -11,8 +11,8 @@ const Header = () => {
         Full stack developer
       </h1>
       <p>
-        I am a full stack developer with experience in React, Node.js, Express, and MongoDB.
-        I’ve built major projects like a food delivery app and worked as an intern at QBE Consulting.
+        I am a full stack developer with experience in React, Node.js, Express.
+        I’ve built major projects like Ecommerce and real estate contract project, and worked as an intern at QBE Consulting.
       </p>
       <div className="hero-buttons">
         <a href="#" className="btn-outline">My resume</a>
