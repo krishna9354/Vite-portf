@@ -4,8 +4,8 @@ import './ProjectCard.css'; // Your styling file
 const projects = [
   {
     id: 1,
-    title: 'Food Delivery App',
-    description: 'A full-stack food delivery application using React, Node.js, and MongoDB.',
+    title: 'Real Estate Contract Management',
+    description: 'A full-stack website using React, Node.js, and MongoDB.',
     techStack: ['React', 'Node.js', 'MongoDB'],
     link: 'https://github.com/yourusername/food-delivery-app',
   },
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Chat Application',
+    title: 'Real time Chat Application',
     description: 'Real-time chat app built with Socket.IO and Express.',
     techStack: ['React', 'Socket.IO', 'Express'],
     link: 'https://github.com/yourusername/chat-app',
