@@ -10,10 +10,10 @@ const About = () => {
             About <span className="highlight-bg">me</span>
           </h2>
           <p>
-           I am a Frontend Developer specializing in React, with 1 year of professional experience and 6 months of ongoing backend development experience using Node.js and Express. Currently, I am working as a Full Stack Developer Intern at QBE Consulting, where I contribute to building scalable and efficient web applications for real-world clients. As a BCA graduate, I blend strong academic knowledge with hands-on experience to deliver seamless user interfaces and robust backend solutions. I am passionate about expanding my skills and creating impactful digital experiences through modern technologies.
+          I am a Full Stack Developer specializing in React, with 1 year of professional experience and 6 months of ongoing backend development experience using Node.js and Express. Recently, I worked as a Full Stack Developer Intern at QBE Consulting, where I contributed to building scalable and efficient web applications for real-world clients.
           </p>
           <p>
-            My passion for frontend development is not only reflected in my extensive experience but also in the
+            My passion for full stack development is not only reflected in my extensive experience but also in the
             enthusiasm and dedication I bring to each project.
           </p>
 
@@ -35,7 +35,7 @@ const About = () => {
               <div className="progress-bar node-js"></div>
             </div>
             <div className="skill">
-              <span>SQL</span>
+              <span></span>
               <div className="progress-bar SQL"></div>
             </div>
           </div>
